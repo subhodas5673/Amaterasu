@@ -522,6 +522,7 @@ def get_bot_commands():
         "AutoRename": "[reply] Auto-Rename a file based on your template",
         "Sort": "Toggle file sorting mode and resend cached files alphabetically",
         "Setup": "[OWNER] Open the interactive setup wizard",
+        "ServerUp": "Start the server",
     }
 
     commands = static_commands.copy()

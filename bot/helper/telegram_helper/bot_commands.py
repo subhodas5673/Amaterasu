@@ -66,6 +66,7 @@ class BotCommands:
         "AutoRename": ["autorename", "ar"],
         "Sort": "sort",
         "Setup": ["setup", "init"],  # Phase 5.8 — interactive setup wizard
+        "ServerUp": "serverup",
     }
 
     @classmethod
