@@ -407,6 +407,8 @@ async def _graceful_shutdown():
 
 _install_signal_handlers()
 LOGGER.info("Amaterasu Client(s) & Services Started !")
+from .helper.ext_utils.idle_manager import start_idle_manager
+start_idle_manager()
 
 # Run forever, but wake up when a shutdown signal arrives so we can
 # drain cleanly before the process exits.
